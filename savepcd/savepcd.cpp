@@ -74,13 +74,14 @@ int main( int argc, char *argv[] ){
   std::cin>>FILEPATH;
 
 
-  std::string ipaddress( "192.168.2.77" );
-  std::string port( "2268" );
+  std::string ipaddress( "192.168.1.77" );
+  std::string port( "2368" );
   std::string pcap;
 
   std::cout << "-ipadress : " << ipaddress << std::endl;
   std::cout << "-port : " << port << std::endl;
 
+  boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer( new pcl::visualization::PCLVisualizer( "Velodyne Viewer" ) );
   // Point Cloud
   pcl::PointCloud<PointType>::ConstPtr cloud;
 
