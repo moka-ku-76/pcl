@@ -1,0 +1,3 @@
+/home/host_share/mobicom/viewer/build/CMakeFiles/rebuild_cache.dir
+/home/host_share/mobicom/viewer/build/CMakeFiles/viewer.dir
+/home/host_share/mobicom/viewer/build/CMakeFiles/edit_cache.dir
